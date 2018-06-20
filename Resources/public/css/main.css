@@ -1,48 +1,48 @@
 /* CSS Document */
 body {
-	padding-top: 55px;
-	padding-bottom: 30px;
+    padding-top: 55px;
+    padding-bottom: 30px;
 }
 
 .theme-dropdown .dropdown-menu {
-  position: static;
-  display: block;
-  margin-bottom: 20px;
+    position: static;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .theme-showcase > p > .btn {
-  margin: 5px 0;
+    margin: 5px 0;
 }
 
 .theme-showcase .navbar .container {
-  width: auto;
+    width: auto;
 }
 .theme-showcase {
-	background-color: rgba(250, 250, 250, 0.85);
-	border-radius: 10px; 
-	box-shadow: 2px 2px 15px rgba(0,0,0,0.75);
+    background-color: rgba(250, 250, 250, 0.85);
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.75);
 }
 @media screen and (min-width: 768px) {
-	.dropdown:hover>.dropdown-menu {
-		display: block;
-	}
-	.dropdown-submenu:hover > .dropdown-menu {
-		display: block;
-	}
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+    .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+    }
 }
 p {
-	text-align: justify;
+    text-align: justify;
 }
 .form-group {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 .withAdd {
-	display: block!important;
+    display: block!important;
 }
 img.headShot75 {
-	float: right;
-	margin-left: 6px;
-	width: 75px;
+    float: right;
+    margin-left: 6px;
+    width: 75px;
 }
 div#footerContainer {
     padding-top: 0px;
@@ -61,23 +61,23 @@ a {
     color: #775522;
 }
 #bee-logo {
-	height: 150px;
-	float: right;
-	margin-left: 10px ;
+    height: 150px;
+    float: right;
+    margin-left: 10px ;
 }
 .lead {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
     font-size: 21px!important;
     font-weight: 200!important;
-	min-height: 25px;
+    min-height: 25px;
 }
 .sub-lead {
-	margin-top: -15px;
+    margin-top: -15px;
     font-size: 16px!important;
     font-weight: 100!important;
 }
 div.calendarMonth {
-	border: 1px solid #444;
+    border: 1px solid #444;
     padding: 10px;
     border-radius: 15px;
     margin: 0;
@@ -86,16 +86,16 @@ div.calendarMonth>table {
     width: 100%;
 }
 tr.calendarWeek>td {
-	border: 1px solid black;
+    border: 1px solid black;
     height: 2em;
-	min-width: 30px ;
+    min-width: 30px ;
     text-align: center;
 }
 tr.calendarWeek {
-	border: 1px solid black;
+    border: 1px solid black;
 }
 div.calendarMonth th {
-	text-align: center ;
+    text-align: center ;
 }
 
 .calendarHours {
@@ -159,44 +159,44 @@ div.calendarMonth th {
     overflow: auto;
 }
 .dayBold {
-	font-weight: bold;
-	font-size: 85% ;
+    font-weight: bold;
+    font-size: 85% ;
 }
 td.noBorder {
     border: none!important;
 }
 .calendarBody {
-	background-position: center  ;
-	background-repeat: no-repeat ;
-	background-size: 400px ;
-	border: none ;
+    background-position: center  ;
+    background-repeat: no-repeat ;
+    background-size: 400px ;
+    border: none ;
 }
 img.imageWidth200 {
-	float: right;
-	margin-left: 6px;
-	width: 200px;
+    float: right;
+    margin-left: 6px;
+    width: 200px;
 }
 .changeRecord {
-	float: right;
-	width: 300px;
+    float: right;
+    width: 300px;
     margin-top: 1px;
-	height: 28px;
-	font-weight: normal ;
+    height: 28px;
+    font-weight: normal ;
     padding: 0 5px;
 }
 .field-required {
-	font-style: italic;
-	font-size: 85% ;
-	color: indianred;
-	text-align: justify ;
+    font-style: italic;
+    font-size: 85% ;
+    color: indianred;
+    text-align: justify ;
 }
 ul.nav li.disabled {
-	display: none ;
+    display: none ;
 }
 .card-header .personIdentifier {
-	font-size: 12px;
-	float: right ;
-	margin-right: 3px;
+    font-size: 12px;
+    float: right ;
+    margin-right: 3px;
 }
 .card-header p {
     margin: 5px 0 -5px 0;
@@ -590,7 +590,6 @@ body.loading .showLoader {
     background-color: #cce5ff!important;
     border-color: #b8daff;
 }
-
 .nav-link.dropdown-toggle {
     font-variant: all-petite-caps;
 }
@@ -628,4 +627,8 @@ input[type=color].form-control {
 .img-photo250 {
     width: 250px;
     border-radius: 1rem;
+}
+nav#sidebar {
+    margin-left: -12px;
+    padding: 0;
 }
