@@ -632,3 +632,10 @@ nav#sidebar {
     margin-left: -12px;
     padding: 0;
 }
+.small select {
+    padding: 0;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    max-height: 30px;
+}
