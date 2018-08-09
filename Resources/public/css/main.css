@@ -639,3 +639,11 @@ nav#sidebar {
     border-radius: .2rem;
     max-height: 30px;
 }
+.jumbotron {
+    padding: 15px 1px 4rem 1px;
+}
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 15px 4rem 4rem 4rem;
+    }
+}
