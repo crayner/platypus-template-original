@@ -30,7 +30,7 @@ class VersionHelper implements ThemeVersionHelper
      */
     public function getVersion(): string
     {
-        return '0.0.06';
+        return '0.0.07';
     }
 
     private $name = 'Original';
@@ -82,5 +82,15 @@ class VersionHelper implements ThemeVersionHelper
     public function getURL(): string
     {
         return 'http://www.craigrayner.com';
+    }
+
+    /**
+     * getBackgroundImage
+     *
+     * @return string
+     */
+    public function getBackgroundImage(): string
+    {
+        return 'bundles/platypustemplateoriginal/img/backgroundPage.jpg';
     }
 }
