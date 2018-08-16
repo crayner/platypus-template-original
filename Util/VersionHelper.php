@@ -30,7 +30,7 @@ class VersionHelper implements ThemeVersionHelper
      */
     public function getVersion(): string
     {
-        return '0.0.07';
+        return '0.0.08';
     }
 
     private $name = 'Original';
@@ -87,9 +87,9 @@ class VersionHelper implements ThemeVersionHelper
     /**
      * getBackgroundImage
      *
-     * @return string
+     * @return null|string
      */
-    public function getBackgroundImage(): string
+    public function getBackgroundImage(): ?string
     {
         return 'bundles/platypustemplateoriginal/img/backgroundPage.jpg';
     }
