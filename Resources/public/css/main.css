@@ -523,32 +523,32 @@ body.loading .showLoader {
 .card-primary, .card-success, .card-danger, .card-info, .card-default, .card-warning, .card-dark, .card-light {
     background-color: transparent;
 }
-.card-primary .card-header {
-    background-color: #0275d8;
+.card-primary > .card-header {
+    background-color: #0275d8!important;
 }
-.card-dark .card-header {
-    background-color: #d6d8d9;
+.card-dark > .card-header {
+    background-color: darkslategrey!important;
 }
-.card-light .card-header {
-    background-color: #f0f0f0;
+.card-light > .card-header {
+    background-color: #f0f0f0!important;
 }
-.card-secondary .card-header {
-    background-color: #e7e8ea;
+.card-secondary > .card-header {
+    background-color: #e7e8ea!important;
 }
-.card-success .card-header {
-    background-color: #5cb85c;
+.card-success > .card-header {
+    background-color: #5cb85c!important;
 }
-.card-danger .card-header {
-    background-color: #d9534f;
+.card-danger > .card-header {
+    background-color: #d9534f!important;
 }
-.card-info .card-header {
-    background-color: #5bc0de;
+.card-info > .card-header {
+    background-color: #5bc0de!important;
 }
-.card-warning .card-header {
-    background-color: #f0ad4e;
+.card-warning > .card-header {
+    background-color: #f0ad4e!important;
 }
-.card-default .card-header {
-    background-color: rgba(210,210,210,1.0);
+.card-default > .card-header {
+    background-color: rgba(210,210,210,1.0)!important;
 }
 .card.alert-warning, .row-warning {
     color: #856404;
