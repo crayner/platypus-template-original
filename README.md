@@ -4,7 +4,7 @@ Template for Platypus
 
 Version
 -------
-0.0.08
+0.0.09
 
 Gibbon, Flexible & Open School System
 Copyright (C) 2010, Ross Parker
