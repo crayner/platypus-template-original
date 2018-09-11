@@ -30,7 +30,7 @@ class VersionHelper implements ThemeVersionHelper
      */
     public function getVersion(): string
     {
-        return '0.0.09';
+        return '0.0.10';
     }
 
     private $name = 'Original';

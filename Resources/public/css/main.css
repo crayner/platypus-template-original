@@ -34,7 +34,7 @@ p {
     text-align: justify;
 }
 .form-group {
-    margin-bottom: 0;
+    margin-bottom: 0!important;
 }
 .withAdd {
     display: block!important;
