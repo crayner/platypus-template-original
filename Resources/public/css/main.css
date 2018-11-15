@@ -586,9 +586,9 @@ body.loading .showLoader {
     border-color: #dddfe2;
 }
 .card.alert-primary, .row-primary {
-    color: #004085;
-    background-color: #cce5ff!important;
-    border-color: #b8daff;
+    color: black;
+    background-color: #0275d8!important;
+    border-color: #0275d8;
 }
 .nav-link.dropdown-toggle {
     font-variant: all-petite-caps;
